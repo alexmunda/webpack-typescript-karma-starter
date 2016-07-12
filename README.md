@@ -1,8 +1,21 @@
 #webpack-karma-typescript-starter
 ##Starter project for a webpack bundlin', typescript typin', karma test runnin' good time.
 
-`git clone https://github.com/alexmunda/webpack-typescript-karma-starter.git`
+```sh
+# Clone the project
+git clone https://github.com/alexmunda/webpack-typescript-karma-starter.git
 
-`npm install`
+# If you don't have typings installed.
+npm install typings --global
 
-`npm run test`
+# Install typings
+typings install
+
+# Install packages
+npm install
+
+# Run the tests
+npm run test
+```
+
+
