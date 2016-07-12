@@ -16,6 +16,7 @@ npm install
 
 # Run the tests
 npm run test
+
+# Create the webpack bundle
+npm run start
 ```
-
-
