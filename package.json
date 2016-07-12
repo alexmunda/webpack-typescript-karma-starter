@@ -1,28 +1,28 @@
 {
-    "name": "webpack-typescript-karma-starter",
-    "version": "1.0.0",
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/alexmunda/webpack-typescript-karma-starter.git"
-    },
-    "description": "Starter project for a webpack bundlin', typescript typin', karma test runnin' good time.",
-    "scripts": {
-        "start": "webpack",
-        "test": "karma start --browsers Chrome"
-    },
-    "author": "Alex Munda",
-    "license": "MIT",
-    "devDependencies": {
-        "chai": "3.5.0",
-        "karma": "0.13.22",
-        "karma-chai": "^0.1.0",
-        "karma-chrome-launcher": "1.0.1",
-        "karma-mocha": "1.1.1",
-        "karma-webpack": "1.7.0",
-        "mocha": "2.5.3",
-        "ts-loader": "0.8.2",
-        "typescript": "1.8.10",
-        "webpack": "2.1.0-beta.13"
-    },
-    "dependencies": {}
+  "name": "webpack-typescript-karma-starter",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/alexmunda/webpack-typescript-karma-starter.git"
+  },
+  "description": "Starter project for a webpack bundlin', typescript typin', karma test runnin' good time.",
+  "scripts": {
+    "start": "webpack",
+    "test": "karma start --browsers Chrome"
+  },
+  "author": "Alex Munda",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "3.5.0",
+    "karma": "0.13.22",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "1.0.1",
+    "karma-mocha": "1.1.1",
+    "karma-webpack": "1.7.0",
+    "mocha": "2.5.3",
+    "ts-loader": "0.8.2",
+    "typescript": "1.8.10",
+    "webpack": "2.1.0-beta.15"
+  },
+  "dependencies": {}
 }
