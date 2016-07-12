@@ -1,17 +1,17 @@
-var webpackConfig = require("./webpack.config.js");
+var webpackConfig = require('./webpack.config.js');
 
-var testGlob = "src/**/*.spec.ts";
-var srcGlob = "src/**/*!(spec).ts";
+var testGlob = 'src/**/*.spec.ts';
+var srcGlob = 'src/**/*!(spec).ts';
 
 module.exports = function setKarmaConfig(config) {
     config.set({
         basePath: '',
-        frameworks: ["jasmine"],
+        frameworks: ['mocha', 'chai'],
         files: [testGlob, srcGlob],
         reporters: ['progress'],
         preprocessors: {
-            "src/**/*.spec.ts": ['webpack'],
-            "src/**/*!(spec).ts": ['webpack'],
+            'src/**/*.spec.ts': ['webpack'],
+            'src/**/*!(spec).ts': ['webpack'],
         },
         webpack: webpackConfig,
         webpackMiddleware: {
