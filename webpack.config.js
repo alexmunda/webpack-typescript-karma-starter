@@ -1,22 +1,26 @@
 var resolve = require('path').resolve;
 
-module.exports = {
+module.exports = function() {
+  return {
     context: resolve(__dirname, 'src'),
-    entry: './app.ts',
+    entry:
+      './app.ts'
+    ,
     output: {
-        path: resolve(__dirname, 'dist'),
-        filename: 'bundle.js',
-        pathInfo: true,
-        publicPath: '/dist/'
+      path: resolve(__dirname, 'dist'),
+      filename: 'bundle.js',
+      pathinfo: true,
+      publicPath: '/dist/'
     },
     module: {
-        loaders: [{
-            test: /\.ts$/,
-            loaders: ['ts-loader']
-        }]
+      loaders: [{
+        test: /\.ts$/,
+        loaders: ['awesome-typescript']
+      }]
     },
     resolve: {
-        extensions: ['.ts', '.js']
+      extensions: ['.ts', '.js']
     },
     devtool: 'eval'
+  }
 }
