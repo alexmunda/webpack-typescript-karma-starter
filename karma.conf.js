@@ -13,7 +13,7 @@ module.exports = function setKarmaConfig(config) {
             'src/**/*.spec.ts': ['webpack'],
             'src/**/*!(spec).ts': ['webpack'],
         },
-        webpack: webpackConfig,
+        webpack: webpackConfig(),
         webpackMiddleware: {
             noInfo: true
         },
