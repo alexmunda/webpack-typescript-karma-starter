@@ -25,7 +25,7 @@ npm install
 ```sh
 npm run test
 ```
-
+<!-- useless comment for get the hacktoberfest shirt-->
 ### Create the webpack bundle
 ```sh
 npm run start
