@@ -1,5 +1,6 @@
 import addTwo from './adder';
 import {assert} from 'chai';
+import 'mocha';
 
 describe('adder', function() {
   describe('addTwo', function() {
